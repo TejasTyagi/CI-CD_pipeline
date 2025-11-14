@@ -24,7 +24,8 @@ jobs:
         with:
           context: .
           push: true
-          tags: YOUR_USERNAME/YOUR_REPO:latest
+          tags: tejastyagi/nodejs-container-app:latest
+
 
   deploy:
     runs-on: ubuntu-latest
